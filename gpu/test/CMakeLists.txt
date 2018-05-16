@@ -1,7 +1,7 @@
 list(APPEND srcs
     ${CMAKE_CURRENT_SOURCE_DIR}/demo_ivfpq_indexing_gpu.cpp)
 
-set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
+#set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
 include(FindCUDA)
 
 find_package(CUDA REQUIRED)

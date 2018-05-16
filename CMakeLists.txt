@@ -11,7 +11,7 @@ option(BUILD_WITH_GPU "Build faiss with gpu (cuda) support" ON)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/Modules)
 
-set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
+#set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
 
 find_package(OpenMP REQUIRED)
 

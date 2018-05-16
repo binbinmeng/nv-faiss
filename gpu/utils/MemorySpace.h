@@ -11,8 +11,8 @@
 #pragma once
 
 #include "../../cpu/FaissAssert.h"
-//#include <cuda_runtime.h>//<cuda.h>
-#include </usr/local/cuda-9.0/include/cuda.h>
+#include <cuda_runtime.h>//<cuda.h>
+//#include </usr/local/cuda-9.0/include/cuda.h>
 #if CUDA_VERSION >= 8000
 // Whether or not we enable usage of CUDA Unified Memory
 #define FAISS_UNIFIED_MEM 1

@@ -6,7 +6,7 @@ include_directories(../../)	# faiss root directory
 # gtest
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
-set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
+#set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
 include(FindCUDA)
 
 find_package(CUDA REQUIRED)

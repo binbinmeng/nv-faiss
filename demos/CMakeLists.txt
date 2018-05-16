@@ -4,7 +4,7 @@ file(GLOB srcs ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 # Build each source file independently
 include_directories(../../)	# faiss root directory
 
-set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
+#set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
 include(FindCUDA)
 
 find_package(CUDA REQUIRED)

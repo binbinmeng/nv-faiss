@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include </usr/local/cuda-9.0/include/cuda_runtime.h>
+#include <cuda_runtime.h>
 #include <string>
 
 namespace faiss { namespace gpu {

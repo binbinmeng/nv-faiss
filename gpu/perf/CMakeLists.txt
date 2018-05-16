@@ -6,7 +6,7 @@ include_directories(../../)	# faiss root directory
 #include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../test)
 #file(GLOB src_files ${CMAKE_CURRENT_SOURCE_DIR}../test/*)
 
-set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
+#set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-9.0")
 include(FindCUDA)
 
 find_package(CUDA REQUIRED)
