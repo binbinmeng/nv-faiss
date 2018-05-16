@@ -4,7 +4,7 @@
 #include <faiss/IndexFlat.h>
 #include <faiss/IndexIVFPQ.h>
 #include <faiss/IndexLSH.h>
-#include <../cpu/timer.h>
+#include <../../cpu/timer.h>
 
 int main(){
 
